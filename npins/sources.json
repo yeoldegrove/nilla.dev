@@ -8,9 +8,10 @@
         "repo": "nilla"
       },
       "branch": "main",
+      "submodules": false,
       "revision": "e8ced4234abd7bd556d2dc40b62c014a860a5081",
       "url": "https://github.com/nilla-nix/nilla/archive/e8ced4234abd7bd556d2dc40b62c014a860a5081.tar.gz",
-      "hash": "0qildn3qciz4w4fdwi2whqq2l2qhjj9zxdfznnayh1m5cg5db251"
+      "hash": "sha256-oYjVymOlBuiVtd+1/pOUEAsqMIZcRN4c4eRHhodtNGI="
     },
     "nixpkgs": {
       "type": "Git",
@@ -20,10 +21,11 @@
         "repo": "nixpkgs"
       },
       "branch": "nixos-unstable",
+      "submodules": false,
       "revision": "698214a32beb4f4c8e3942372c694f40848b360d",
       "url": "https://github.com/nixos/nixpkgs/archive/698214a32beb4f4c8e3942372c694f40848b360d.tar.gz",
-      "hash": "0b1sxjghybf0fis20i9vjg79xwrjw597437v87clva97ghgbf3l7"
+      "hash": "sha256-hw63HnwnqU3ZQfsMclLhMvOezpM7RSB0dMAtD5/sOiw="
     }
   },
-  "version": 3
+  "version": 7
 }
