@@ -57,6 +57,10 @@ With the dependency available, we can now include the module in our Nilla projec
 
 <Code lang="nix" code={nilla0Code} title="nilla.nix" />
 
+<Aside type="note">
+	Starting with npins 0.4.0 (schema version 7), you must use `import ./npins {};` instead of `import ./npins;`. For npins < 0.4.0 (schema version 7), the old syntax still works.
+</Aside>
+
 ## Create a Home Manager home
 
 Home Manager homes are created with the configuration options under `homes.*`.
@@ -96,6 +100,10 @@ NixOS systems. Once you've included the module, you can attach a home to a
 system by using `inherit`.
 
 <Code lang="nix" code={nilla2Code} title="nilla.nix" />
+
+<Aside type="note">
+	Starting with npins 0.4.0 (schema version 7), you must use `import ./npins {};` instead of `import ./npins;`. For npins < 0.4.0 (schema version 7), the old syntax still works.
+</Aside>
 
 Once you've attached your home, you can build or switch to your NixOS system
 as usual.

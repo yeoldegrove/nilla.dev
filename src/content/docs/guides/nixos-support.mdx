@@ -53,6 +53,10 @@ With the dependency available, we can now include the module in our Nilla projec
 
 <Code lang="nix" code={nilla0Code} title="nilla.nix" />
 
+<Aside type="note">
+	Starting with npins 0.4.0 (schema version 7), you must use `import ./npins {};` instead of `import ./npins;`. For npins < 0.4.0 (schema version 7), the old syntax still works.
+</Aside>
+
 ## Create a NixOS system
 
 NixOS systems are created with the configuration options under `systems.nixos.*`. Each NixOS system

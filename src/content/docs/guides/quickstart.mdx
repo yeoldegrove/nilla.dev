@@ -3,7 +3,7 @@ title: Quickstart
 description: Get started using Nilla in minutes!
 ---
 
-import { Tabs, TabItem, Code } from "@astrojs/starlight/components";
+import { Tabs, TabItem, Code, Aside } from "@astrojs/starlight/components";
 import nixLegacyCode from "./quickstart/nix-legacy.sh?raw";
 import nixFlakesCode from "./quickstart/nix-flakes.sh?raw";
 import nixosFlakesCode from "./quickstart/nixos-flakes.nix?raw";
@@ -50,6 +50,10 @@ npins add github nilla-nix nilla
 Now, we can make our `nilla.nix` file.
 
 <Code lang="nix" code={nilla0Code} title="nilla.nix" />
+
+<Aside type="note">
+	Starting with npins 0.4.0 (schema version 7), you must use `import ./npins {};` instead of `import ./npins;`. For npins < 0.4.0 (schema version 7), the old syntax still works.
+</Aside>
 
 That is all we need to have a valid Nilla project!
 

@@ -34,6 +34,10 @@ To add a new input to your Nilla project, set the option `inputs.<my-input>`.
 
 <Code lang="nix" code={add0Code} title="nilla.nix" />
 
+<Aside type="note">
+	Starting with npins 0.4.0 (schema version 7), you must use `import ./npins {};` instead of `import ./npins;`. For npins < 0.4.0 (schema version 7), the old syntax still works.
+</Aside>
+
 ## Adding pins automatically
 
 Nilla makes it easy to quickly and easily add all of your pinned dependencies to your project.

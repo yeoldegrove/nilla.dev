@@ -1,6 +1,6 @@
 let
   # Import pinned inputs.
-  pins = import ./npins;
+  pins = import ./npins {};
 
   # Import Nilla.
   nilla = import pins.nilla;
